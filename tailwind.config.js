@@ -16,6 +16,10 @@ module.exports = {
           '2xl': '6rem',
         }
       },
+      colors: {
+        'slg-gray': '#434343',
+        'slg-blue': '#1e4b89'
+      },
     },
   },
   plugins: [require('flowbite/plugin')],
