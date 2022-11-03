@@ -6,7 +6,7 @@ import { Footer } from "flowbite-react";
 const Layout = () => {
   return (
     <>
-      <nav className="fixed w-full bg-white">
+      <nav className="fixed w-full bg-white z-10">
       <div className="container flex justify-between">
         <div className='p-4'>
             <img src={Logo} alt='logo'/>
@@ -48,7 +48,7 @@ const Layout = () => {
       <Outlet />
       <hr />
       <Footer container={true} className="rounded-none">
-        <div className="w-full">
+        <div className="w-full container">
             <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div>
                 <Footer.Brand

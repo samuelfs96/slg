@@ -17,9 +17,14 @@ module.exports = {
         }
       },
       colors: {
-        'slg-gray': '#434343',
+        'slg-gray': '#6b7280',
         'slg-blue': '#1e4b89'
       },
+      backgroundImage: {
+        'car1': "url('../src/img/car1.jpg')",
+        'car2': "url('../src/img/car2.jpg')",
+        'car3': "url('../src/img/car3.jpg')"
+      }
     },
   },
   plugins: [require('flowbite/plugin')],
