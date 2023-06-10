@@ -9,11 +9,14 @@
     "@testing-library/user-event": "^13.5.0",
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.3.2",
+    "i18next": "^22.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-html-parser": "^2.0.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "http://app-nader.g4f7o391o0-zqy3jzlvq6kg.p.temp-site.link/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
