@@ -1,0 +1,20 @@
+.sgl-logo{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sgl-logo span{
+    align-self: auto;
+}
+
+.sgl-logo img{
+    height: 10rem;
+}
+
+.sgl-footer{
+    border-radius: 0;
+}
+
+.sgl-footer a, .sgl-footer p, .sgl-footer h2, .sgl-footer li, .sgl-footer span {
+    color: white;
+}
